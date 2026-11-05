@@ -2,7 +2,7 @@
   "name": "kesh-gold",
   "displayName": "cmb gold quote",
   "description": "招商银行黄金行情",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "kesh",
   "author": "kesh",
   "engines": {
@@ -22,31 +22,11 @@
     "configuration": {
       "title": "cmb gold quote",
       "properties": {
-        "zhaohuang.apiurl": {
-          "type": "string",
-          "default": "https://mbmodule-openapi.paas.cmbchina.com/product/v1/func/market-center",
-          "description": "报价接口地址"
-        },
         "zhaohuang.refreshseconds": {
-          "type": "number",
+          "type": "integer",
           "default": 5,
-          "minimum": 1,
-          "description": "刷新间隔（秒）"
-        },
-        "zhaohuang.requestparams": {
-          "type": "array",
-          "default": [
-            {
-              "prdType": "H",
-              "prdCode": ""
-            }
-          ],
-          "description": "接口请求参数"
-        },
-        "zhaohuang.quotekey": {
-          "type": "string",
-          "default": "FQAMBPRCZ1",
-          "description": "报价对象字段名"
+          "minimum": 5,
+          "description": "刷新间隔（整数秒，最小为 5）"
         }
       }
     }
