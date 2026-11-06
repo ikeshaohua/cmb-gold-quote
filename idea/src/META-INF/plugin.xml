@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>local.kesh.gold</id><name>cmb gold quote</name><version>1.0.1</version><vendor>kesh</vendor>
+  <id>local.kesh.gold</id><name>cmb gold quote</name><version>1.0.2</version><vendor>kesh</vendor>
   <description>招商银行黄金行情</description>
   <idea-version since-build="253"/>
   <depends>com.intellij.modules.platform</depends>
