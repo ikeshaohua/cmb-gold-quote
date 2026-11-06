@@ -2,7 +2,7 @@
   "name": "kesh-gold",
   "displayName": "cmb gold quote",
   "description": "招商银行黄金行情",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "kesh",
   "author": "kesh",
   "engines": {
